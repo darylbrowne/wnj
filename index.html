@@ -107,6 +107,15 @@
 		    float: right;
 		  }
 		}
+
+		@media only screen 
+		  and (min-device-width: 375px) 
+		  and (max-device-width: 812px) 
+		  and (orientation: portrait) {
+		  	img {
+		  		padding-top: 50%;
+		  	}
+		}		
 		.cover {
 		  padding: 0 1.5rem;
 		}
@@ -121,6 +130,7 @@
 		header, h1, p.lead {
 			display: none;
 		}	
+
 
 	</style>
   </head>
